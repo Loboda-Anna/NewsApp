@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favourite</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link rel="icon" type="image/x-icon" href="/favicon.be4b0254.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/favourite.492a874b.css">
+    <script src="/favourite.74b659d7.js" defer=""></script>
+  </head>
+  <body>
+    <!-- ❗️❗️❗️ Add partials like so for every page -->
+    <header class="header">
+  <div class="container header-wraper">
+    <a class="logo" href="/index.html">News</a>
+    <nav class="main-nav">
+      <ul class="main-nav-list">
+        <li class="main-nav-item current" id="home">
+          <a href="/index.html">Home</a>
+        </li>
+        <li class="main-nav-item" id="favourite">
+          <a href="/favourite.html">Favorite</a>
+        </li>
+        <li class="main-nav-item" id="read">
+          <a href="/read.html">Read</a>
+        </li>
+      </ul>
+    </nav>
+    <form class="search-bar">
+      <button class="submit-button" type="submit">
+        <svg width="20" height="20" aria-label="Search field button">
+          <use href="/sprite.f14d31f7.svg#search" class="search-button"></use>
+        </svg>
+      </button>
+      <input class="search-field" autocomplete="off" type="text" placeholder="Search">
+    </form>
+    <div class="buttons-wraper">
+      <button class="open-search-button" type="button">
+        <svg width="20" height="20" aria-label="Search field button">
+          <use href="/sprite.f14d31f7.svg#search" class="search-button"></use>
+        </svg>
+      </button>
+      <button class="open-menu-button js-open-menu" aria-expanded="false" aria-controls="mobile-menu" type="button">
+        <svg width="24" height="24" aria-label="Mobile menu button">
+          <use href="/sprite.f14d31f7.svg#burger" class="menu-button__icon-menu"></use>
+        </svg>
+      </button>
+    </div>
+    <div class="desktop-switcher switcher">
+      <svg width="21" height="21" aria-label="Sun">
+        <use href="/sprite.f14d31f7.svg#sun" class="mobile-menu-icon"></use>
+      </svg>
+      <label class="switch">
+        <input class="checkbox" type="checkbox">
+        <span class="slider"></span>
+      </label>
+      <svg width="21" height="21" aria-label="Moon">
+        <use href="/sprite.f14d31f7.svg#moon" class="mobile-menu-icon"></use>
+      </svg>
+    </div>
+  </div>
+</header>
+
+    <main class="favorite_padding">
+      <section class="favorite">
+  <div class="container">
+    <ul class="favorite__list"></ul>
+  </div>
+</section>
+
+      <section class="nothing">
+    <h2 class="nothing_title">We haven’t found news from this category</h2>
+   <img srcset="/image_1.f8251818.jpg      900w, /image_1@2x.9baad3e7.jpg   708w, /image_2.ca9ca2c9.jpg      540w, /image_2@2x.8859c8f7.jpg   450w, /image_3.891c583f.jpg      354w, /image_3@2x.a3989db0.jpg   270w" sizes="(min-width: 1200px) 900px,(min-width: 768px) 354px, 270px" src="/image_3@2x.a3989db0.jpg" alt="Nothing found" class="nothing_img"></section>
+
+    </main>
+    
+
+
+<footer class="footer"></footer>
+
+
+    <div class="mobile-menu hidden" id="mobile-menu">
+  <div class="header-wraper">
+    <a class="logo" href="/index.html">News</a>
+    <button type="button" class="close-menu-button">
+      <svg width="24" height="24" aria-label="Close mobile menu button">
+        <use href="/sprite.f14d31f7.svg#cross" class="menu-button__icon-close"></use>
+      </svg>
+    </button>
+  </div>
+  <div class="menu-wraper">
+    <ul class="mobile-menu-list">
+      <li class="mobile-menu-item mobile-current" id="mobile-home">
+        <a href="/index.html">
+          <svg width="40" height="40" aria-label="Home">
+            <use href="/sprite.f14d31f7.svg#home" class="mobile-menu-icon"></use>
+          </svg>
+          <p class="menu-text">
+            <span>Home</span><span class="arrow arrow-home">></span>
+          </p>
+        </a>
+      </li>
+      <li class="mobile-menu-item" id="mobile-favourite">
+        <a href="/favourite.html">
+          <svg width="40" height="40" aria-label="Favorite">
+            <use href="/sprite.f14d31f7.svg#heart" class="mobile-menu-icon"></use>
+          </svg>
+          <p class="menu-text">
+            <span>Favorite</span><span class="arrow arrow-favorite">></span>
+          </p>
+        </a>
+      </li>
+      <li class="mobile-menu-item" id="mobile-read">
+        <a href="/read.html">
+          <svg width="40" height="40" aria-label="Read">
+            <use href="/sprite.f14d31f7.svg#book" class="mobile-menu-icon"></use>
+          </svg>
+          <p class="menu-text">
+            <span>Read</span><span class="arrow arrow-read">></span>
+          </p>
+        </a>
+      </li>
+    </ul>
+    <div class="mobile-switcher switcher">
+      <svg width="21" height="21" aria-label="Sun">
+        <use href="/sprite.f14d31f7.svg#sun" class="mobile-menu-icon"></use>
+      </svg>
+      <label class="switch">
+        <input class="mobile-checkbox checkbox" type="checkbox">
+        <span class="slider"></span>
+      </label>
+      <svg width="21" height="21" aria-label="Moon">
+        <use href="/sprite.f14d31f7.svg#moon" class="mobile-menu-icon"></use>
+      </svg>
+    </div>
+  </div>
+</div>
+
+  </body>
+</html>
