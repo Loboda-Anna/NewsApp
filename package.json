@@ -2,14 +2,14 @@
   "name": "news-app",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Maksym-Babich.github.io/News-app",
+  "homepage": "https://Loboda-Anna.github.io/news-website",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /News-app/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Maksym-Babich/News-app.git"
+    "url": "git+https://github.com/Loboda-Anna/news-website.git"
   },
   "keywords": [],
   "author": "Team-8",
